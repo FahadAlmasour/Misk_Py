@@ -19,17 +19,23 @@ type(d)
 '1' + '1' # add str
 '1' * 5 # multiply str
 '1' '1' # bad syntax :/
+<<<<<<< HEAD
 '1' * 11.65
 
 import math # literally from math import *
 import numpy as np
 import pandas as pd
 
+=======
+>>>>>>> 33e222f895106b48e0e8d6c984e4e72a80a01b58
 
 # Functions
 # e.g. 
 numb = 8
+<<<<<<< HEAD
 np.log(8, 3) # This won't work because 8 is not an "Array"
+=======
+>>>>>>> 33e222f895106b48e0e8d6c984e4e72a80a01b58
 np.log2(numb) # (2 ** x = 8)
 math.log2(8)
 math.log(8, 2)

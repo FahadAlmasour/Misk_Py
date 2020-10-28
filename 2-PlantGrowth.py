@@ -18,9 +18,12 @@ from scipy import stats
 # ols is for ordinary least squares
 from statsmodels.formula.api import ols
 
+<<<<<<< HEAD
 # Super basic function
 n =  math.log(8, 2)
 
+=======
+>>>>>>> 33e222f895106b48e0e8d6c984e4e72a80a01b58
 # Import the data set
 plant_growth = pd.read_csv('data/plant_growth.csv')
 
@@ -66,6 +69,7 @@ sns.catplot(x="group", y="weight", data=plant_growth)
 sns.pointplot(x="group", y="weight", data=plant_growth, join=False)
 sns.catplot(x="group", y="weight", data=plant_growth, kind="point")
 
+<<<<<<< HEAD
 # base R plotting functions:
 """ boxplot()
 hist()
@@ -73,6 +77,8 @@ plot()
 plot(density()) """
 
 
+=======
+>>>>>>> 33e222f895106b48e0e8d6c984e4e72a80a01b58
 # specify the model
 """ import statsmodels.api as sm
 from statsmodels.formula.api import ols """
@@ -84,7 +90,10 @@ results.summary()
 results.params.Intercept
 results.params["group[T.trt1]"]
 results.params["group[T.trt2]"]
+<<<<<<< HEAD
 # coefficients == parameters == estimates
+=======
+>>>>>>> 33e222f895106b48e0e8d6c984e4e72a80a01b58
 
 # Explore model results
 results.summary()
